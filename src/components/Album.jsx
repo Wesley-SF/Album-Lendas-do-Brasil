@@ -147,7 +147,16 @@ function Album() {
                   <RotateCcw size={15} aria-hidden="true" />
                   Voltar ao início
                 </button>
-                <a href="#" aria-label="Abrir GitHub do projeto">
+                <a
+                  href="https://github.com/Wesley-SF/Album-Lendas-do-Brasil"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Abrir projeto no GitHub"
+                  onPointerDown={(event) => event.stopPropagation()}
+                  onMouseDown={(event) => event.stopPropagation()}
+                  onTouchStart={(event) => event.stopPropagation()}
+                  onClick={(event) => event.stopPropagation()}
+                >
                   <Github size={15} aria-hidden="true" />
                   GitHub
                 </a>

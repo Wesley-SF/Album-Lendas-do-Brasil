@@ -33,10 +33,20 @@ function App() {
 
       <footer className="app-signature">
         <span>Projeto desenvolvido por Wesley Farias</span>
-        <a href="#" aria-label="LinkedIn de Wesley Farias">
+        <a
+          href="https://www.linkedin.com/in/wesley-santos-de-farias-110605204/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn de Wesley Farias"
+        >
           <Linkedin size={14} aria-hidden="true" />
         </a>
-        <a href="#" aria-label="GitHub de Wesley Farias">
+        <a
+          href="https://github.com/Wesley-SF/Album-Lendas-do-Brasil"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub de Wesley Farias"
+        >
           <Github size={14} aria-hidden="true" />
         </a>
       </footer>

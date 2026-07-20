@@ -711,6 +711,7 @@ button {
   height: 100%;
   min-height: 0;
   flex-direction: column;
+  justify-content: center;
 }
 
 .final-page h2 {

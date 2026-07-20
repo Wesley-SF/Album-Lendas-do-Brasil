@@ -124,17 +124,6 @@ function Album() {
                 em símbolos e mantém viva uma paixão que pertence a todo o país.
               </p>
 
-              <div className="final-page__suggestion">
-                <label htmlFor="legend-suggestion">
-                  Qual lenda faltou neste álbum?
-                </label>
-                <input
-                  id="legend-suggestion"
-                  type="text"
-                  placeholder="Escreva um nome..."
-                />
-              </div>
-
               <p className="final-page__thanks">
                 Obrigado por visitar este projeto de portfólio.
               </p>
